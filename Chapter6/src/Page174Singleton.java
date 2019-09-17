@@ -16,6 +16,6 @@ public class Page174Singleton {
 		Page174Singleton s1 = Page174Singleton.getInstance();
 		Page174Singleton s2 = Page174Singleton.getInstance();
 		System.out.println(s1 == s2);
-		
+
 	}
 }
