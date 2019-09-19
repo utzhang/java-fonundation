@@ -12,7 +12,8 @@ public class Page277SImpleDateFormatTest {
         System.out.println(dateStr);
 
         String str = "19###七月##24";
-        SimpleDateFormat sdf2 = new SimpleDateFormat("y###MMM#111#d");
+        SimpleDateFormat sdf2 = new SimpleDateFormat("y###MMM##d");
+        System.out.println(sdf2.format(d));
         System.out.println(sdf2.parse(str));
     }
 }
